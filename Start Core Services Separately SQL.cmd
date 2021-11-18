@@ -18,7 +18,7 @@
 @C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"CamstarAppServer"
 @C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Camstar WCF Services"
 @C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Portal"
-@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:“InlineSPC"
+@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"InlineSPC"
 @NET START "Camstar Deployment Server"
 @NET START "Camstar Notification Server"
 
