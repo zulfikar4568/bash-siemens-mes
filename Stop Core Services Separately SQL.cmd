@@ -1,4 +1,4 @@
-@C:\Windows\System32\inetsrv\appcmd stop apppool /apppool.name:“InlineSPC"
+@C:\Windows\System32\inetsrv\appcmd stop apppool /apppool.name:"InlineSPC"
 @C:\Windows\System32\inetsrv\appcmd stop apppool /apppool.name:"Portal"
 @C:\Windows\System32\inetsrv\appcmd stop apppool /apppool.name:"Camstar WCF Services"
 @C:\Windows\System32\inetsrv\appcmd stop apppool /apppool.name:"CamstarAppServer"
