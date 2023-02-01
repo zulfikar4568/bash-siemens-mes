@@ -63,3 +63,8 @@ Get-WindowsFeature FileAndStorage-Services
 ```
 Restart-Computer
 ```
+
+## 7. Install Certificate
+```
+New-SelfSignedCertificate -DnsName "opcenter-mes.com" -FriendlyName "opcenter-mes" -NotAfter (GET-DATE).AddYears(10)
+```
