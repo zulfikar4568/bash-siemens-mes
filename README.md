@@ -70,6 +70,9 @@ New-SelfSignedCertificate -DnsName "opcenter-mes.com" -FriendlyName "opcenter-me
 ```
 
 ## If failed Windows could not start the Windows Process Activation Service service on Local Computer
+
+![image](https://user-images.githubusercontent.com/64786139/216079288-7d9429df-66e9-4d66-9f4b-a70b06a17fa3.png) 
+
 Check the Event Viewer in Custom Views > Server Roles > Web Server IIS for example: </br> </br>
 
 ![image](https://user-images.githubusercontent.com/64786139/216077128-89500fa0-1839-41d8-9579-9d3f134bb595.png)
