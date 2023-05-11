@@ -19,7 +19,13 @@
 @C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Camstar WCF Services"
 @C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Portal"
 @C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"InlineSPC"
-@NET START "Camstar Deployment Server"
+@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Labels"
+@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Modeling"
+@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"PcbApi AppPool"
+@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Query"
+@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"Shopfloor"
+@C:\Windows\System32\inetsrv\appcmd start apppool /apppool.name:"UMCAgent"
+@NET STOP "Camstar Deployment Server"
 @NET START "Camstar Notification Server"
 
 @ECHO.
